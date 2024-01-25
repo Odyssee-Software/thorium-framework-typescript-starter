@@ -26,13 +26,13 @@ Cette commande utilise **`thorium-cli`** pour transpiler le code source TypeScri
 
 - **index.ts :**
     - Point d'entrée de votre application. Il importe le fichier **`pageRouter.ts`**.
-- **pageRouter.tsx :**
+- **pageRouter.ts :**
     - Ce fichier crée un routeur de pages à l'aide de la fonction **`PageRouter`** de Thorium Framework. Il définit différentes pages avec leurs noms associés et leurs contenus.
 
 ### **Utilisation**
 
 1. **Définir vos pages :**
-    - Modifiez le fichier **`pageRouter.tsx`** pour définir les différentes pages de votre application. Chaque page est un objet avec un nom et un contenu.
+    - Modifiez le fichier **`pageRouter.ts`** pour définir les différentes pages de votre application. Chaque page est un objet avec un nom et un contenu.
 2. **Lancer le build :**
     - Exécutez **`npm run build`** pour transpiler votre code source et générer les fichiers dans le répertoire **`public/dist`**.
 3. **Intégrer dans votre application :**
