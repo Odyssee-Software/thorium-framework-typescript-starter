@@ -1,0 +1,16 @@
+{
+  "name": "thorium-framework-typescript-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build" : "npx thorium-cli --entryDir=src --outputDir=public/dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "thorium-cli": "file:../../../thorium-cli",
+    "thorium-framework": "file:../../../thorium-framework"
+  }
+}
